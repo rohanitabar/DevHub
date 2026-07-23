@@ -1,6 +1,6 @@
 import "./hero.css";
 import { Platform } from "../platform";
-export const DeveloperGrid = ({
+export const Hero = ({
   title,
   primaryBtn,
   secondaryBtn,
