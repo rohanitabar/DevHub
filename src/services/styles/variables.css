@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Vazirmatn:wght@100..900&display=swap");
+
+:root {
+  /* Brand */
+  --clr-primary: #2563eb;
+  --clr-primary-hover: #1d4ed8;
+
+  /* Background */
+  --clr-bg: #f8fafc;
+  --clr-surface: #ffffff;
+
+  /* Text */
+  --clr-text: #0f172a;
+  --clr-text-secondary: #64748b;
+
+  /* Border */
+  --clr-border: #e2e8f0;
+
+  /* Status */
+  --clr-success: #22c55e;
+  --clr-warning: #f59e0b;
+  --clr-danger: #ef4444;
+
+  /* Fonts */
+  --font-fa: "Vazirmatn", sans-serif;
+  --font-en: "Inter", sans-serif;
+
+  /* Spacing */
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+
+  /* Border Radius */
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+
+  /* transition */
+
+  --transition: 0.25s ease;
+
+  /* with & height */
+  --container: 1320px;
+  --navbar-height: 72px;
+}
