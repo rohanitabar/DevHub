@@ -1,22 +1,28 @@
-import BackgroundOverlay from "../../assets/background-overlay.webp";
 import "./hero.css";
-export const DeveloperGrid = () => {
+import { Platform } from "../platform";
+export const DeveloperGrid = ({
+  title,
+  primaryBtn,
+  secondaryBtn,
+  background,
+}) => {
   return (
-    <div className="hero">
-      <img
-        src={BackgroundOverlay}
-        className="Overlay-img"
-        alt="backgroundOverlay"
-      />
+    <section className="hero">
+      <img src={background} className="hero-img" alt="hero background" />
+
       <div className="overlay"></div>
-      <div className="hero-content">
-        <h1 className="Title">بزرگ‌ترین جامعه توسعه‌دهندگان را کشف کن  </h1>
-        <h3 className="Title">جستجو، مشاهده و دنبال کردن برنامه‌نویسان </h3>
-        <div className="btn-container">
-        <button className="start">شروع جست و جو</button>
-        <button className="start"> جست و جو توسعه دهندگان</button>
+
+      <div className="hero-content container">
+        <h1 className="Title">{title}</h1>
+        <div className="platforms">
+          <Platform />
+        </div>
+
+        <div className="hero-actions">
+          <button className="btn btn-primary">{primaryBtn}</button>
+          <button className="btn btn-secondary">{secondaryBtn}</button>
         </div>
       </div>
-    </div>
+    </section>
   );
 };

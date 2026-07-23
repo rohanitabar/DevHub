@@ -1,0 +1,11 @@
+.platforms{
+    display: flex;
+    margin-bottom: var(--space-3);
+}
+
+.logo{
+    width: 60px;
+    margin-inline: var(--space-2);
+    height: 60px;
+    border-radius: var(--radius-lg);
+}
